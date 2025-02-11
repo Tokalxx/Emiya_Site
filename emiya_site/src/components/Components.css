@@ -35,12 +35,66 @@
   column-gap: 3rem;
 }
 
-/**/
+/*Home Section*/
 
-/**/
+.Home_Wrapper {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Home_Hero-Copy {
+  max-width: 70%;
+}
 
-/**/
+/*About Section*/
+.About_Wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 
+/*Details Sections*/
+.Details_Wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  row-gap: 1rem;
+  border: pink solid;
+}
+.DC_Wrapper {
+  border: green solid;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+}
+
+.DC_Card-Design {
+  padding: 0.3rem;
+  border: red solid;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.DC_Copy {
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.DC_Copy:hover {
+  max-height: 15rem;
+  background: red;
+}
+
+.DC_Title {
+  width: 7rem;
+}
 /**/
 
 /**/

@@ -6,8 +6,8 @@ export class DetailCards extends Component {
     return (
       <div>
         <div className="DC_Wrapper">
-          <div className="DC_Title">{title}</div>
-          <div className="DC_Copy">|{copy}</div>
+          <div className="DC_Card-Design DC_Title">{title}</div>
+          <div className="DC_Card-Design DC_Copy">{copy}</div>
         </div>
       </div>
     );
